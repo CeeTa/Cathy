@@ -222,7 +222,7 @@ a:hover {
 /*=================================
 =            TESTIMONY            =
 =================================*/
-#gtco-testimonial {
+#concept {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -230,12 +230,14 @@ a:hover {
 
 .testi-content {
   text-align: center; }
-  .testi-content .testi-text {
-    font-style: italic;
-    font-weight: 300;
-    line-height: 1.6;
-    padding: 30px 60px;
-    font-size: 32px; }
+    .testi-content .testi-text {
+        /*font-style: italic;*/
+        font-weight: 300;
+        /*text-align:left;*/
+        line-height: 1.6;
+        padding: 30px 60px;
+        font-size: 32px;
+    }
   .testi-content .testi-author {
     font-weight: 500; }
   .testi-content .testi-desc span {

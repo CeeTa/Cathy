@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="https://cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.1/css/tempusdominus-bootstrap-4.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/brands.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
 
     <!-- Fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Josefin+Sans:300,400,700">
@@ -37,15 +38,16 @@
     <div id="side-nav" class="sidenav">
         <a href="javascript:void(0)" id="side-nav-close">&times;</a>
         <div class="sidenav-content">
-            <p>
+            <!--<p>
                 Kuncen WB1, Wirobrajan 10010, DIY
-            </p>
+            </p>-->
             <p>
-                <span class="fs-16 primary-color">(+68) 120034509</span>
+                <span class="fs-16 primary-color">(+886) 0958806818</span>
             </p>
-            <p>info@yourdomain.com</p>
+            <p>skln02@gmail.com</p>
         </div>
-    </div>	<div id="side-search" class="sidenav">
+    </div>
+    <div id="side-search" class="sidenav">
         <a href="javascript:void(0)" id="side-search-close">&times;</a>
         <div class="sidenav-content">
             <form action="">
@@ -59,7 +61,8 @@
                 </div>
             </form>
         </div>
-    </div>	<div id="canvas-overlay"></div>
+    </div>
+    <div id="canvas-overlay"></div>
     <div class="boxed-page">
         <nav id="navbar-header" class="navbar navbar-expand-lg">
             <div class="container">
@@ -81,7 +84,10 @@
                                 <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="about.html">About</a>
+                                <a class="nav-link" href="#about">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#concept">Concept</a>
                             </li>
 
                             <!--<li class="nav-item dropdown">
@@ -95,7 +101,6 @@
                             </li>-->
                         </div>
                     </ul>
-
                     <a class="navbar-brand navbar-brand-center d-flex align-items-center only-desktop" href="#">
                         <img src="img/logo.png" alt="">
                     </a>
@@ -159,24 +164,34 @@
                     <div class="col-lg-6 hero-right">
                         <div class="owl-carousel owl-theme hero-carousel">
                             <div class="item">
-                                <img class="img-fluid" src="img/hero-1.jpg" alt="">
+                                <img class="img-fluid" src="img/top-slider-1.jpg" style="object-fit: contain" alt="">
                             </div>
                             <div class="item">
-                                <img class="img-fluid" src="img/hero-2.jpg" alt="">
+                                <img class="img-fluid" src="img/top-slider-2.jpg" style="object-fit: contain" alt="">
                             </div>
                             <div class="item">
-                                <img class="img-fluid" src="img/hero-3.jpg" alt="">
+                                <img class="img-fluid" src="img/top-slider-3.jpg" style="object-fit: contain" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-fluid" src="img/top-slider-4.jpg" style="object-fit: contain" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-fluid" src="img/top-slider-5.jpg" style="object-fit: contain" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-fluid" src="img/top-slider-6.jpg" style="object-fit: contain" alt="">
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>		<!-- Welcome Section -->
+        </div>
+        <!-- Welcome Section -->
         <section id="gtco-welcome" class="bg-white section-padding">
-            <div class="container">
+            <div id="about" class="container">
                 <div class="section-content">
                     <div class="row">
-                        <div class="col-sm-5 img-bg d-flex shadow align-items-center justify-content-center justify-content-md-end img-2" style="background-image: url(img/hero-2.jpg);">
+                        <div class="col-sm-5 img-bg d-flex shadow align-items-center justify-content-center justify-content-md-end img-2" style="background-image: url(img/profile.jpg);">
 
                         </div>
                         <div class="col-sm-7 py-5 pl-md-0 pl-4">
@@ -199,24 +214,24 @@
                                     就是理性的科學，它的隨機性產生了主客觀微妙的變化，
                                     就如同我們在看待世界一樣。
                                 </p>
-                                <h3 class="mt-5">Special Recipe</h3>
-                                <div class="row">
+                                <h3 class="mt-5">特色攝影</h3>
+                                <div class="row" style="text-align:center">
                                     <div class="col-4">
-                                        <a href="#" class="thumb-menu">
-                                            <img class="img-fluid img-cover" src="img/hero-1.jpg" />
-                                            <h6>Australian Organic Beef</h6>
+                                        <a class="thumb-menu" data-fancybox="gallery" href="img/spc-pho-1.jpg">
+                                            <img class="img-fluid img-cover" src="img/spc-pho-1.jpg" style="object-fit: contain" "   />
+                                            <h6>台灣老海報</h6>
                                         </a>
                                     </div>
                                     <div class="col-4">
-                                        <a href="#" class="thumb-menu">
-                                            <img class="img-fluid img-cover" src="img/hero-1.jpg" />
-                                            <h6>Australian Organic Beef</h6>
+                                        <a class="thumb-menu" data-fancybox="gallery" href="img/spc-pho-2.jpg">
+                                            <img class="img-fluid img-cover" src="img/spc-pho-2.jpg" style="object-fit: contain" />
+                                            <h6>極光</h6>
                                         </a>
                                     </div>
                                     <div class="col-4">
-                                        <a href="#" class="thumb-menu">
-                                            <img class="img-fluid img-cover" src="img/hero-1.jpg" />
-                                            <h6>Australian Organic Beef</h6>
+                                        <a class="thumb-menu" data-fancybox="gallery" href="img/spc-pho-3.jpg">
+                                            <img class="img-fluid img-cover" src="img/spc-pho-3.jpg" style="object-fit: contain" />
+                                            <h6>組圖</h6>
                                         </a>
                                     </div>
                                 </div>
@@ -454,15 +469,15 @@
         </section>-->
         <!-- End of menu Section -->
         <!-- Testimonial Section-->
-        <section id="gtco-testimonial" class="overlay bg-fixed section-padding" style="background-image: url(img/testi-bg.jpg);">
+        <section id="concept" class="overlay bg-fixed section-padding" style="background-image: url(img/concept-bg.jpg);">
             <div class="container">
                 <div class="section-content">
                     <div class="heading-section text-center">
                         <span class="subheading">
-                            Testimony
+                            Concept
                         </span>
                         <h2>
-                            Happy Customer
+                            創作理念
                         </h2>
                     </div>
                     <div class="row">
@@ -470,15 +485,48 @@
                         <div class="testi-content testi-carousel owl-carousel">
                             <div class="testi-item">
                                 <i class="testi-icon fa fa-3x fa-quote-left"></i>
-                                <p class="testi-text">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                <p class="testi-text">
+                                    對攝影創作者而言，攝影在現代主義中是最有代表性，
+                                    <br>1839年時，
+                                    <br>法國將攝影技術公布於世界，宣告攝影是如何被產生的，
+                                    <br>在此相機的每個組件都有其相對功能，缺一不可，
+                                    <br>因此攝影是理性的科學，而到了後現代攝影，
+                                    <br>已經可以將其獨立分開來，並進行創作。
+                                </p>
+                                <!--<p class="testi-text">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                                 <p class="testi-author">John Doe</p>
-                                <p class="testi-desc">CEO of <span>GetTemplates</span></p>
+                                <p class="testi-desc">CEO of <span>GetTemplates</span></p>-->
                             </div>
                             <div class="testi-item">
                                 <i class="testi-icon fa fa-3x fa-quote-left"></i>
-                                <p class="testi-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci non doloribus ut, alias doloremque perspiciatis.</p>
+                                <p class="testi-text">
+                                    在這次的攝影創作中，以無鏡頭的方式，
+                                    <br>來探討人的大腦和感光元件觀看的方式，
+                                    <br>並且將以輸出完成的作品透過隨機是的方式來做損壞的動作，
+                                    <br>藉此討論影像對於創作者本身的意義是什麼。
+                                </p>
+                                <!--<p class="testi-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci non doloribus ut, alias doloremque perspiciatis.</p>
                                 <p class="testi-author">Mary Jane</p>
-                                <p class="testi-desc">CTO of <span>Unidentity Inc</span></p>
+                                <p class="testi-desc">CTO of <span>Unidentity Inc</span></p>-->
+                            </div>
+                            <div class="testi-item">
+                                <i class="testi-icon fa fa-3x fa-quote-left"></i>
+                                <p class="testi-text">
+                                    如果影像真能夠把人的記憶保存的話，
+                                    <br>那麼我們是否能探討人對於記憶是有什麼樣的感受，
+                                    <br>任何形式上的表現，往往只是片刻，
+                                    <br>但唯有感受這件事情卻能將記憶保留較久的時間，
+                                    <br>因為它能再次地觸動我的心
+                                </p>
+                            </div>
+                            <div class="testi-item">
+                                <i class="testi-icon fa fa-3x fa-quote-left"></i>
+                                <p class="testi-text">
+                                    雪 是記憶的歌聲
+                                    <br>記憶 是繽紛的色彩
+                                    <br>也許已記不住美好的細節
+                                    <br>卻忘不了留駐在心頭的絢爛
+                                </p>
                             </div>
                         </div>
                         <!-- End of Testimonial -->
@@ -671,7 +719,17 @@
         <footer class="mastfoot pb-5 bg-white section-padding pb-0">
             <div class="inner container">
                 <div class="row">
-                    <div class="col-lg-4">
+                    <div class="col-lg-12">
+                        <nav class="nav nav-mastfoot justify-content-start">
+                            <a class="nav-link" href="#">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a class="nav-link" href="#">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </nav>
+                    </div>
+                    <!--<div class="col-lg-4">
                         <div class="footer-widget pr-lg-5 pr-0">
                             <img src="img/logo.png" class="img-fluid footer-logo mb-3" alt="">
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et obcaecati quisquam id sit omnis explicabo voluptate aut placeat, soluta, nisi ea magni facere, itaque incidunt modi? Magni, et voluptatum dolorem.</p>
@@ -714,7 +772,7 @@
                             </form>
                         </div>
 
-                    </div>
+                    </div>-->
                     <div class="col-md-12 d-flex align-items-center">
                         <p class="mx-auto text-center mb-0">Copyright 2019. All Right Reserved. Design by <a href="https://gettemplates.co" target="_blank">GetTemplates</a></p>
                     </div>
@@ -733,6 +791,7 @@
     <script src="https://cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.js"></script>
     <script src="vendor/stellar/jquery.stellar.js" type="text/javascript" charset="utf-8"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.1/js/tempusdominus-bootstrap-4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 
     <!-- Main JS -->
     <script src="js/app.min.js "></script>
