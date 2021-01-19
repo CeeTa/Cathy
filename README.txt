@@ -1,12 +1,9 @@
 
-TITLE: 
-Resto - 100% Fully Responsive HTML5 Bootstrap 4 Template for Restaurants
+INDEX:
+https://ceeta.github.io/Cathy/
 
-AUTHOR:
-DESIGNED & DEVELOPED by GetTemplates.co and FreeHTML5.co
-
-Websites: https://gettemplates.co https://freehtml5.co/
-
+PHOTO PROVIDER:
+https://www.instagram.com/skln02/
 
 CREDITS:
 
@@ -31,6 +28,8 @@ http://markdalgleish.com/projects/stellar.js/
 Tempus Dominus
 https://tempusdominus.github.io/bootstrap-4/
 
-Demo Images:
-http://unsplash.com
+FancyBox:
+https://fancyapps.com/fancybox/3/
 
+Website Templates:
+https://gettemplates.co https://freehtml5.co/
