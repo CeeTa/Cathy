@@ -502,4 +502,9 @@ a:hover {
   .img-2 {
     height: 500px; } }
 
-/*=====  End of RESPONSIVE  ======*/
+@media (max-width: 992px) {
+    .qrcode {
+        margin-left: 9%;
+    }
+
+    /*=====  End of RESPONSIVE  ======*/
