@@ -164,10 +164,12 @@ a:hover {
   border-right: 1px solid #f7f8f9; }
 
 .hero-carousel .owl-nav {
-  display: flex;
-  position: absolute;
-  bottom: 0;
-  right: 0; }
+    display: flex;
+    position: absolute;
+    opacity: 0.8;
+    bottom: 0;
+    right: 0;
+}
 
 .hero-carousel .owl-item img {
   height: 600px;
