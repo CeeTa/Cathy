@@ -31,3 +31,6 @@ https://fancyapps.com/fancybox/3/
 Website Templates:
 https://gettemplates.co https://freehtml5.co/
 
+PHOTO PROVIDER:
+
+https://www.instagram.com/skln02/
